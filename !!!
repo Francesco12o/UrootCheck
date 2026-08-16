@@ -1,0 +1,29 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.4'
+    }
+}
+
+repositories {
+    google()
+    jcenter()
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 9
+
+    defaultConfig {
+        applicationId "UrootCheck"
+        minSdkVersion 9
+        targetSdkVersion 9
+        versionCode 1
+        versionName "1.0"
+    }
+}
